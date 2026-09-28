@@ -57,7 +57,7 @@ src/
 
 ## Deploy no GitHub Pages
 
-O workflow em `.github/workflows/deploy.yml` compila e publica o site automaticamente a cada push para a branch `main`. Também é possível iniciar o workflow manualmente pela aba **Actions**.
+
 
 1. Envie o projeto para um repositório no GitHub, usando a branch `main`.
 2. No repositório, abra **Settings > Pages** e selecione **GitHub Actions** como fonte de publicação.
