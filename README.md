@@ -59,8 +59,4 @@ src/
 
 
 
-1. Envie o projeto para um repositório no GitHub, usando a branch `main`.
-2. No repositório, abra **Settings > Pages** e selecione **GitHub Actions** como fonte de publicação.
-3. Acompanhe o workflow na aba **Actions**. Quando terminar, a URL do site aparecerá no ambiente `github-pages` do deploy.
 
-O caminho base dos arquivos é configurado automaticamente para repositórios de projeto e para repositórios pessoais ou de organização `*.github.io`.
