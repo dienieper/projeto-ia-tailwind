@@ -1,0 +1,66 @@
+# Jarvis
+
+Interface web de um assistente de IA, construída com React e Tailwind CSS. A tela permite escrever uma mensagem, escolher entre os modos **Rápido** e **Especialista** e alternar as opções **Pensamento profundo** e **Pesquisa Inteligente**.
+
+> Este projeto contém apenas a interface. O envio ainda não está conectado a um modelo de IA ou a um backend.
+
+## Tecnologias
+
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS 4
+- Oxlint
+
+## Pré-requisitos
+
+- Node.js 20.19+ ou 22.12+
+- npm
+
+## Como executar
+
+```bash
+# Instalar dependências
+npm install
+
+# Iniciar o servidor de desenvolvimento
+npm run dev
+
+# Gerar o build de produção
+npm run build
+
+# Visualizar o build localmente
+npm run preview
+
+# Executar o linter
+npm run lint
+```
+
+Depois de iniciar o servidor, abra a URL exibida no terminal (normalmente `http://localhost:5173`).
+
+## Estrutura do projeto
+
+```text
+src/
+├── components/
+│   ├── header/       # Título do projeto
+│   ├── layout/       # Layout principal
+│   ├── mode/         # Seleção do modo de resposta
+│   ├── search/       # Campo de mensagem e controles
+│   └── ui/           # Botões reutilizáveis
+├── types/
+│   └── chat.ts       # Tipo dos modos de chat
+├── App.tsx           # Estado da interface e composição
+├── index.css         # Estilos globais
+└── main.tsx          # Ponto de entrada React
+```
+
+## Deploy no GitHub Pages
+
+O workflow em `.github/workflows/deploy.yml` compila e publica o site automaticamente a cada push para a branch `main`. Também é possível iniciar o workflow manualmente pela aba **Actions**.
+
+1. Envie o projeto para um repositório no GitHub, usando a branch `main`.
+2. No repositório, abra **Settings > Pages** e selecione **GitHub Actions** como fonte de publicação.
+3. Acompanhe o workflow na aba **Actions**. Quando terminar, a URL do site aparecerá no ambiente `github-pages` do deploy.
+
+O caminho base dos arquivos é configurado automaticamente para repositórios de projeto e para repositórios pessoais ou de organização `*.github.io`.
