@@ -57,4 +57,10 @@ src/
 
 ## Deploy no GitHub Pages
 
+<<<<<<< HEAD
 https://dienieper.github.io/projeto-ia-tailwind/
+=======
+
+
+
+>>>>>>> db60034ecc4cad42ebf5e43a6ce64233800e0884
